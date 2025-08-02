@@ -6,12 +6,12 @@ import { Card, CardBody, Chip, Divider } from "@nextui-org/react";
 import { 
   IconTrophy, 
   IconUsers, 
-  IconCricket, 
-  IconBowl,
+  IconCricket,
   IconCalendar,
   IconStarFilled,
   IconChartBar
 } from '@tabler/icons-react';
+import { WicketIcon } from './components/WicketIcon';
 
 const TeamColorMap = {
   'Team Galactic': 'warning',
@@ -189,7 +189,7 @@ export default function Home() {
                             {/* Best Bowler */}
                             <div className="flex items-center gap-3">
                               <div className="p-2 rounded-full bg-green-100">
-                                <IconBowl className="h-5 w-5 text-green-600" />
+                                <WicketIcon className="h-5 w-5 text-green-600" />
                               </div>
                               <div>
                                 <p className="text-sm text-gray-500">Best Bowler</p>
