@@ -8,6 +8,20 @@ interface Tournament {
   date?: string;
   year: string;
   winningSet?: string[];
+  bestUmpire?: string;
+}
+
+interface WeekdayTournament {
+  seriesName: string;
+  period: string;
+  winner: string;
+  wins: number;
+  total: number;
+  winPercentage: string;
+  mvp: string;
+  bestBatsman: string;
+  bestBowler: string;
+  year: string;
 }
 
 export const tournaments: Tournament[] = [
@@ -206,18 +220,20 @@ export const tournaments: Tournament[] = [
     bestBowler: "Tanuj",
     date: "July 2025",
     year: "2025",
-    winningSet: ["Nishant(c)", "Prerit", "Aniket", "Ayush"]
+    winningSet: ["Nishant(c)", "Prerit", "Aniket", "Ayush"],
+    bestUmpire: "Prashant"
   },
   {
     seriesName: "August Tri Series",
     captain: "Sudhanshu",
-    team: "Team Galactic",
+    team: "Celestial",
     mvp: "Aniket",
     bestBatsman: "Mayank",
     bestBowler: "Aniket",
     date: "August 2025",
     year: "2025",
-    winningSet: ["Sudhanshu(c)", "Aniket", "Mayank", "Krishna"]
+    winningSet: ["Sudhanshu(c)", "Aniket", "Mayank", "Krishna"],
+    bestUmpire: "Prerit"
   },
   {
     seriesName: "Dec 24 Jan 25 Tri series",
@@ -229,5 +245,56 @@ export const tournaments: Tournament[] = [
     date: "January 2025",
     year: "2025",
     winningSet: ["Prashant(c)", "Aniket", "Karan", "Krishna"]
+  }
+];
+
+export const weekdayTournaments: WeekdayTournament[] = [
+  {
+    seriesName: "Series 1",
+    period: "April - May",
+    winner: "Prashant",
+    wins: 9,
+    total: 12,
+    winPercentage: "75%",
+    mvp: "Karan",
+    bestBatsman: "Prashant",
+    bestBowler: "Kushagra",
+    year: "2025"
+  },
+  {
+    seriesName: "Series 2",
+    period: "May - June",
+    winner: "Karan",
+    wins: 8,
+    total: 12,
+    winPercentage: "66.6%",
+    mvp: "Prashant",
+    bestBatsman: "Tanuj",
+    bestBowler: "Karan",
+    year: "2025"
+  },
+  {
+    seriesName: "Series 3",
+    period: "June - July",
+    winner: "Kushagra",
+    wins: 8,
+    total: 10,
+    winPercentage: "80%",
+    mvp: "Aniket",
+    bestBatsman: "Prashant",
+    bestBowler: "Aniket",
+    year: "2025"
+  },
+  {
+    seriesName: "Series 4",
+    period: "August",
+    winner: "Yash",
+    wins: 9,
+    total: 12,
+    winPercentage: "75%",
+    mvp: "Aniket",
+    bestBatsman: "Nihal",
+    bestBowler: "Prashant",
+    year: "2025"
   }
 ]; 
