@@ -243,8 +243,7 @@ export const tournaments: Tournament[] = [
     bestBatsman: "Aniket",
     bestBowler: "Prakhar",
     date: "September 2025",
-    year: "2025",
-    winningSet: ["Arijit(c)"]
+    year: "2025"
   },
   {
     seriesName: "Dec 24 Jan 25 Tri series",
