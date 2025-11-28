@@ -246,6 +246,17 @@ export const tournaments: Tournament[] = [
     year: "2025"
   },
   {
+    seriesName: "Sep - Oct Tri Series 2025",
+    captain: "Prakhar",
+    team: "Celestial",
+    mvp: "Karan",
+    bestBatsman: "Karan",
+    bestBowler: "Devang",
+    date: "September - October 2025",
+    year: "2025",
+    winningSet: ["Prakhar(c)", "Sudhanshu", "Chirag"]
+  },
+  {
     seriesName: "Dec 24 Jan 25 Tri series",
     captain: "Prashant",
     team: "Celestial",
@@ -305,6 +316,18 @@ export const weekdayTournaments: WeekdayTournament[] = [
     mvp: "Aniket",
     bestBatsman: "Nihal",
     bestBowler: "Prashant",
+    year: "2025"
+  },
+  {
+    seriesName: "Series 5",
+    period: "September",
+    winner: "Prerit",
+    wins: 0,
+    total: 0,
+    winPercentage: "0%",
+    mvp: "Aniket",
+    bestBatsman: "Aniket",
+    bestBowler: "Prakhar",
     year: "2025"
   }
 ]; 
