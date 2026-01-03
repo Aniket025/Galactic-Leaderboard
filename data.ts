@@ -257,6 +257,17 @@ export const tournaments: Tournament[] = [
     winningSet: ["Prakhar(c)", "Sudhanshu", "Chirag"]
   },
   {
+    seriesName: "Nov Tri Series 2025",
+    captain: "Konark",
+    team: "Celestial",
+    mvp: "Aniket",
+    bestBatsman: "Aniket",
+    bestBowler: "Aniket",
+    date: "November 2025",
+    year: "2025",
+    winningSet: ["Konark(c)", "Nishant Tomar", "Aniket"]
+  },
+  {
     seriesName: "Dec 24 Jan 25 Tri series",
     captain: "Prashant",
     team: "Celestial",
