@@ -268,6 +268,16 @@ export const tournaments: Tournament[] = [
     winningSet: ["Konark(c)", "Nishant Tomar", "Aniket"]
   },
   {
+    seriesName: "One Day Bhaiya Tri Series Jan 2026",
+    captain: "Sudhanshu",
+    team: "Team Galactic",
+    mvp: "Aniket",
+    bestBatsman: "Devang",
+    bestBowler: "Prajwal",
+    date: "January 2026",
+    year: "2026"
+  },
+  {
     seriesName: "Jan Dulha Tri Series 2026",
     captain: "Prerit",
     team: "Celestial",
