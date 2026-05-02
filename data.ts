@@ -300,6 +300,27 @@ export const tournaments: Tournament[] = [
     winningSet: ["Devang(c)", "Prerit", "Konark", "Siddharth A"]
   },
   {
+    seriesName: "March Monthly Tri Series",
+    captain: "Karan",
+    team: "Celestial",
+    mvp: "Mayank",
+    bestBatsman: "Mayank",
+    bestBowler: "Prajwal",
+    date: "March 2026",
+    year: "2026",
+    winningSet: ["Karan(c)", "Prakhar", "Arijit", "Samriddh (Impact)"]
+  },
+  {
+    seriesName: "Grand Tri Series April",
+    captain: "Prerit",
+    team: "Celestial",
+    mvp: "Prerit",
+    bestBatsman: "Tanuj",
+    bestBowler: "Prerit",
+    date: "April 2026",
+    year: "2026"
+  },
+  {
     seriesName: "Dec 24 Jan 25 Tri series",
     captain: "Prashant",
     team: "Celestial",
@@ -372,5 +393,29 @@ export const weekdayTournaments: WeekdayTournament[] = [
     bestBatsman: "Aniket",
     bestBowler: "Prakhar",
     year: "2025"
+  },
+  {
+    seriesName: "Series 6",
+    period: "January 2026",
+    winner: "Yash Gupta",
+    wins: 9,
+    total: 9,
+    winPercentage: "100%",
+    mvp: "Prerit",
+    bestBatsman: "Konark",
+    bestBowler: "Prerit",
+    year: "2026"
+  },
+  {
+    seriesName: "Series 7",
+    period: "February 2026",
+    winner: "Yash Gupta",
+    wins: 8,
+    total: 9,
+    winPercentage: "88.8%",
+    mvp: "Prerit",
+    bestBatsman: "Konark",
+    bestBowler: "Awanish",
+    year: "2026"
   }
 ]; 
