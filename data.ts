@@ -397,7 +397,7 @@ export const weekdayTournaments: WeekdayTournament[] = [
   {
     seriesName: "Series 6",
     period: "January 2026",
-    winner: "Yash Gupta",
+    winner: "Yash",
     wins: 9,
     total: 9,
     winPercentage: "100%",
@@ -409,7 +409,7 @@ export const weekdayTournaments: WeekdayTournament[] = [
   {
     seriesName: "Series 7",
     period: "February 2026",
-    winner: "Yash Gupta",
+    winner: "Yash",
     wins: 8,
     total: 9,
     winPercentage: "88.8%",
