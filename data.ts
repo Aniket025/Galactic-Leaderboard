@@ -321,6 +321,28 @@ export const tournaments: Tournament[] = [
     year: "2026"
   },
   {
+    seriesName: "Ace April Tri Series",
+    captain: "Arnab",
+    team: "Illuminati",
+    mvp: "Aniket",
+    bestBatsman: "Aniket",
+    bestBowler: "Prakhar",
+    date: "April 2026",
+    year: "2026",
+    winningSet: ["Arnab(c)", "Karan", "Prakhar"]
+  },
+  {
+    seriesName: "Mayhem Katta Tri Series",
+    captain: "Sudhanshu",
+    team: "Celestial",
+    mvp: "Chirag",
+    bestBatsman: "Arnab",
+    bestBowler: "Prajwal",
+    date: "May 2026",
+    year: "2026",
+    winningSet: ["Sudhanshu(c)", "Prerit", "Awanish", "Arnab", "Devang"]
+  },
+  {
     seriesName: "Dec 24 Jan 25 Tri series",
     captain: "Prashant",
     team: "Celestial",
@@ -416,6 +438,30 @@ export const weekdayTournaments: WeekdayTournament[] = [
     mvp: "Prerit",
     bestBatsman: "Konark",
     bestBowler: "Awanish",
+    year: "2026"
+  },
+  {
+    seriesName: "Series 8",
+    period: "April 2026",
+    winner: "Aniket",
+    wins: 7,
+    total: 9,
+    winPercentage: "77.7%",
+    mvp: "Aniket",
+    bestBatsman: "Aniket",
+    bestBowler: "Aniket",
+    year: "2026"
+  },
+  {
+    seriesName: "Series 9",
+    period: "May 2026",
+    winner: "Arijit",
+    wins: 7,
+    total: 9,
+    winPercentage: "77.7%",
+    mvp: "Aniket",
+    bestBatsman: "-",
+    bestBowler: "Aniket",
     year: "2026"
   }
 ]; 
