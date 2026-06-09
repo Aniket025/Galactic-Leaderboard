@@ -460,7 +460,7 @@ export const weekdayTournaments: WeekdayTournament[] = [
     total: 9,
     winPercentage: "77.7%",
     mvp: "Aniket",
-    bestBatsman: "-",
+    bestBatsman: "Anirudh",
     bestBowler: "Aniket",
     year: "2026"
   }
