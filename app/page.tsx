@@ -66,11 +66,6 @@ const WeekendTournaments = () => {
       const monthA = getMonthFromTournament(a);
       const monthB = getMonthFromTournament(b);
       if (monthA === monthB) {
-        // If months are the same, check if one is a "Grand" series
-        const isGrandA = a.seriesName.toLowerCase().includes('grand');
-        const isGrandB = b.seriesName.toLowerCase().includes('grand');
-        if (isGrandA && !isGrandB) return -1;
-        if (!isGrandA && isGrandB) return 1;
         return 0;
       }
       return monthB - monthA;
